@@ -1,0 +1,6 @@
+apiVersion: mygroup.paravkaushal.dev/v1beta1
+kind: MyKind
+metadata:
+  name: mykind-sample
+spec:
+  # TODO(user): Add fields here

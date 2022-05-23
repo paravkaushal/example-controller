@@ -1,0 +1,7 @@
+apiVersion: mygroup.paravkaushal.dev/v1beta1
+kind: MyKind
+metadata:
+  name: parav1
+spec:
+  deploymentName: alpine-nginx
+  replicas: 2

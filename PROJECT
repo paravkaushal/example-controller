@@ -1,0 +1,16 @@
+domain: paravkaushal.dev
+layout:
+- go.kubebuilder.io/v3
+projectName: example-controller
+repo: github.com/paravkaushal/example-controller
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: paravkaushal.dev
+  group: mygroup
+  kind: MyKind
+  path: github.com/paravkaushal/example-controller/api/v1beta1
+  version: v1beta1
+version: "3"
